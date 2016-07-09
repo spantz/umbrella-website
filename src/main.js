@@ -5,9 +5,7 @@ import Resource from 'vue-resource'
 import Router from 'vue-router'
 
 import App from './components/App.vue'
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import Quote from './components/Quote.vue'
+import Breathe from './components/Breathe.vue'
 
 // Install plugins
 Vue.use(Router)
@@ -18,17 +16,9 @@ var router = new Router()
 
 // Route config
 router.map({
-  '/home':{
-    name: 'home',
-    component: Home
-  },
-  '/about':{
-    name: 'about',
-    component: About
-  },
-  '/quote':{
-    name: 'quote',
-    component: Quote
+  '/breathe':{
+    name: 'breathe',
+    component: breathe
   }
 })
 

@@ -1,6 +1,4 @@
 <script>
-  import Navbar from './Navbar.vue'
-
   export default {
     name: "App",
 
@@ -11,6 +9,5 @@
 </script>
 
 <template>
-  <navbar></navbar>
   <router-view></router-view>
 </template>
